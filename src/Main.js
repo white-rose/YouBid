@@ -23,7 +23,7 @@ class Main extends Component {
               <h2> Step 2: Make bid </h2>
               Venmo: @Nathan-Nguyen-11
               Venmo is used to avoid transaction fees and save you money.
-              <h2> Step 3: If buyer accepts price wait for package to get shipped to address </h2>
+              <h2> Step 3: If buyer accepts price wait item will get shipped to your address </h2>
               <h1> Available Items </h1>
               <FlavorForm> </FlavorForm>
           </body>
