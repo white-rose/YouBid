@@ -22,7 +22,7 @@ class FlavorForm extends React.Component {
     return (
       <form onSubmit={this.handleSubmit}>
         <label>
-          Pick your favorite flavor:
+          Pick your item:
           <select value={this.state.value} onChange={this.handleChange}>
             <option value="Macbook Pro">Macbook Pro</option>
             <option value="iPhoneX">iPhoneX</option>

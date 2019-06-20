@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import { Route, Link, BrowserRouter as Router } from 'react-router-dom'
 import Items from './Items';
-import CheckboxContainer from './CheckboxContainer';
+// import CheckboxContainer from './CheckboxContainer';
 import FlavorForm from './FlavorForm';
 
 class Main extends Component {
