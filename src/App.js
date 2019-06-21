@@ -1,6 +1,7 @@
 import React from 'react';
 import { Route, Link, BrowserRouter as Router } from 'react-router-dom'
 import CreateAccountComponent from './CreateAccountComponent'
+import { RegisterPage } from './RegisterPage/RegisterPage'
 import Items from './Items'
 import Main from './Main'
 import logo from './logo.svg'
@@ -35,6 +36,7 @@ function App() {
 
        <Route exact path="/" component={Main} />
        <Route path="/createAccount/" component={createAccount} />
+       <Route path="/register/" component={RegisterPage} />
      </div>
    </Router>
   );
